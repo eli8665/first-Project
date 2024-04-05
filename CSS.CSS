@@ -1,0 +1,135 @@
+{
+margin: 0;
+padding:0 ;
+}
+body{
+font-family: monospace;
+
+}
+.imagback
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1000;
+}
+
+
+
+header
+{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(backgrand.jpg);
+	height: 100vh;
+	background-size: cover;
+background-position: center;
+}
+.logo img 
+{
+float: right;
+width: 70PX;
+height:auto;
+margin: 10PX;
+}
+.row
+{max-width: 1200px;
+	margin: auto;
+
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+display: inline-block;
+}
+.VISA
+{
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+}
+.VISA li
+{
+display: inline-block;
+}
+.VISA LI A
+{
+color: #EB5E54 ;
+text-decoration: none;
+padding:5px 20px;
+font-family: "revert;",sans-serif;
+font-size: 15px;
+}
+.main-nav li a
+{
+color: #EB5E54 ;
+text-decoration: none;
+padding:5px 20px;
+font-family: "revert;",sans-serif;
+font-size: 15px;
+
+}
+.main-nav li a:hover
+{
+border: 2px solid #fff;
+}
+.VISA li a:hover
+{
+border: 2px solid #fff;
+}
+.hero
+{
+	margin-top: 50px;
+}
+h1 
+{
+	color: #FFF;
+	text-transform: initial;
+	font-size: 50px;
+	text-align: center;
+}
+.BUTTON
+{
+margin-top: 40px;
+text-align: center;
+}
+.btn
+{
+padding:10px 30px;
+color:  #FFF;
+text-decoration: none;
+margin: 5px;
+font-size: 13px;
+text-transform: uppercase;
+font-family: "roboto" ,sans-serif; 
+}
+.btn-one
+{
+background-color:  #FABA99;
+border: 1px solid  #FABA99;
+transition:0.5s;
+}
+.btn-two
+{
+	border: 1px solid #fff;
+}
+.btn-two:hover
+{
+background-color:  #FABA99;
+border: 1px solid  #FABA99;
+transition:0.5s;
+
+}
+.btn-tree
+{
+background-color:  #FABA99;
+border: 1px solid  #FABA99;
+transition:0.5s;
+
+
+}
